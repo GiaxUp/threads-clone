@@ -1,0 +1,106 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "user_uuid": "ee30b12c-d953-47ec-946c-daa263dc64d0",
+      "username": "Giacomo Della Peruta",
+      "handle": "Giacs",
+      "bio": "Hello?",
+      "link": "https://github.com/GiaxUp",
+      "img": "https://i.ibb.co/fSXY5Yv/low-square.jpg",
+      "instagram_url": "https://www.instagram.com/giacs/",
+      "followers": [
+        {
+          "user_uuid": "59cefdfd-97ee-4d6f-bf93-d3e77ac84349"
+        },
+        {
+          "user_uuid": "442e15f7-3590-4b77-94c0-19bb2460d673"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "user_uuid": "59cefdfd-97ee-4d6f-bf93-d3e77ac84349",
+      "username": "Epicode",
+      "handle": "epicode",
+      "bio": "Visita il sito per maggiori informazioni sui corsi!",
+      "link": "https://epicode.com/it/",
+      "img": "https://i.ibb.co/rpByRgZ/epicode.jpg",
+      "instagram_url": "https://www.instagram.com/epicode.italia/",
+      "followers": [
+        {
+          "user_uuid": "ee30b12c-d953-47ec-946c-daa263dc64d0"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "user_uuid": "442e15f7-3590-4b77-94c0-19bb2460d673",
+      "username": "Paolo Rossi",
+      "handle": "paolorossi",
+      "bio": "Ciao ci sono anche io su Threads!",
+      "link": "https://epicode.com/it/",
+      "img": "https://i.ibb.co/ScVVbMQ/piton.jpg",
+      "instagram_url": "https://www.instagram.com/sarcasmx9/",
+      "followers": [
+        {
+          "user_uuid": "ee30b12c-d953-47ec-946c-daa263dc64d0"
+        }
+      ]
+    }
+  ],
+  "threads": [
+    {
+      "id": 0,
+      "timestamp": "Mon Jul 17 2023 11:02:39 GMT+0200 (Ora legale dell'Europa centrale)",
+      "thread_from": "ee30b12c-d953-47ec-946c-daa263dc64d0",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "Hello world of Threads!",
+      "likes": [
+        {
+          "uuid": "442e15f7-3590-4b77-94c0-19bb2460d673"
+        },
+        {
+          "uuid": "59cefdfd-97ee-4d6f-bf93-d3e77ac84349"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "timestamp": "Mon Jul 17 2023 14:34:39 GMT+0200 (Ora legale dell'Europa centrale)",
+      "thread_from": "ee30b12c-d953-47ec-946c-daa263dc64d0",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "And another one!",
+      "likes": []
+    },
+    {
+      "id": 2,
+      "timestamp": "Mon Jul 17 2023 15:12:39 GMT+0200 (Ora legale dell'Europa centrale)",
+      "thread_from": "ee30b12c-d953-47ec-946c-daa263dc64d0",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "This social is so much organized!",
+      "likes": []
+    },
+    {
+      "id": 3,
+      "timestamp": "Mon Jul 17 2023 18:33:12 GMT+0200 (Ora legale dell'Europa centrale)",
+      "thread_from": "59cefdfd-97ee-4d6f-bf93-d3e77ac84349",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "We're Epicode. We're a legion.",
+      "likes": []
+    },
+    {
+      "id": 4,
+      "timestamp": "Mon Jul 17 2023 18:44:39 GMT+0200 (Ora legale dell'Europa centrale)",
+      "thread_from": "ee30b12c-d953-47ec-946c-daa263dc64d0",
+      "thread_to": "59cefdfd-97ee-4d6f-bf93-d3e77ac84349",
+      "reply_to": 3,
+      "text": "Ahahah nice cit!",
+      "likes": []
+    }
+  ]
+}
