@@ -3,7 +3,7 @@ function ThreadInput() {
     <>
       <p></p>
       <input></input>
-      <button></button>
+      <button className="primary">Post</button>
     </>
   );
 }
