@@ -20,4 +20,5 @@ Decided to join the hype for the new Meta social network by creating a look-a-li
 2. Clone this repository with `$ git clone https://github.com/GiaxUp/threads-clone/`
 3. Enter in the project folder with `$ cd threads-clone`
 4. Install all the dependencies with `$ npm i`
+5. Start the database with `$ npx json-server --watch db.json`
 5. Start the application with `$ npm start` 
