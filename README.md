@@ -17,7 +17,7 @@ Decided to join the hype for the new Meta social network by creating a look-a-li
 
 ## How to clone
 1. First of all make sure to have Node.js on your system
-2. Clone this repository with `$ git clone https://github.com/GiaxUp/Capstone/`
-3. Enter in the project folder with `$ cd rocket_cinema`
+2. Clone this repository with `$ git clone https://github.com/GiaxUp/threads-clone/`
+3. Enter in the project folder with `$ cd threads-clone`
 4. Install all the dependencies with `$ npm i`
 5. Start the application with `$ npm start` 
