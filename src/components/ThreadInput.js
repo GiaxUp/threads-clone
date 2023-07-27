@@ -1,9 +1,11 @@
-function ThreadInput() {
+function ThreadInput({ user, text, setText, postThread }) {
   return (
     <>
-      <p></p>
-      <input></input>
-      <button className="primary">Post</button>
+      <p>{user.handle}</p>
+      <input vaulue={text} onChange={(e) => setText(e.target.value)}></input>
+      <button className="primary" onClick={postThread}>
+        Post
+      </button>
     </>
   );
 }

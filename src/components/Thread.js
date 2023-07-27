@@ -1,11 +1,54 @@
 import { useState, useEffect } from "react";
 import moment from "moment/moment";
 
-function Thread({ user, setOpenPopUp, filteredThread }) {
+function Thread({ user, setOpenPopUp, filteredThread, getThreads, setInteractingThread }) {
+  const [replyLength, setReplyLenght] = useState(null);
   const timePassed = moment().startOf("day").fromNow(filteredThread.timestamp);
   const handleClick = () => {
     setOpenPopUp(true);
+    setInteractingThread(filteredThread);
   };
+  console.log("filteredThread:", filteredThread);
+  const postLike = async () => {
+    const hasBeenLikedByUser = filteredThread.likes.some(
+      (like) => like.user_uuid === user.user_uuid
+    );
+    if (!hasBeenLikedByUser) {
+      filteredThread.likes.push({
+        user_uuid: user.user_uuid,
+      });
+
+      try {
+        const response = await fetch(`http://localhost:3000/threads/${filteredThread.id}`, {
+          method: "PUT",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(filteredThread),
+        });
+        const result = await response.json();
+        console.log("Success", result);
+        getThreads();
+      } catch (error) {
+        console.error(error);
+      }
+    }
+  };
+
+  const getRepliesLength = async () => {
+    try {
+      const response = await fetch(`http://localhost:3000/threads?reply_to=$filteredThread?.id`);
+      const data = await response.json();
+      setReplyLenght(data.length);
+    } catch (error) {
+      console.error(error);
+    }
+  };
+
+  useEffect(() => {
+    getRepliesLength();
+  }, [filteredThread]);
+
   return (
     <article className="feed-card">
       <div className="text-container">
@@ -24,6 +67,7 @@ function Thread({ user, setOpenPopUp, filteredThread }) {
       </div>
       <div className="icons">
         <svg
+          onClick={postLike}
           clip-rule="evenodd"
           fill-rule="evenodd"
           stroke-linejoin="round"
@@ -51,7 +95,7 @@ function Thread({ user, setOpenPopUp, filteredThread }) {
         </svg>
       </div>
       <p className="sub-text" onClick={handleClick}>
-        <span>X replies</span> • <span>{filteredThread.likes.length} likes</span>
+        <span>{replyLength} replies</span> • <span>{filteredThread.likes.length} likes</span>
       </p>
     </article>
   );

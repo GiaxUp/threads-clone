@@ -59,10 +59,13 @@
       "text": "Hello world of Threads!",
       "likes": [
         {
-          "uuid": "442e15f7-3590-4b77-94c0-19bb2460d673"
+          "user_uuid": "442e15f7-3590-4b77-94c0-19bb2460d673"
         },
         {
-          "uuid": "59cefdfd-97ee-4d6f-bf93-d3e77ac84349"
+          "user_uuid": "59cefdfd-97ee-4d6f-bf93-d3e77ac84349"
+        },
+        {
+          "user_uuid": "ee30b12c-d953-47ec-946c-daa263dc64d0"
         }
       ]
     },
@@ -100,7 +103,55 @@
       "thread_to": "59cefdfd-97ee-4d6f-bf93-d3e77ac84349",
       "reply_to": 3,
       "text": "Ahahah nice cit!",
+      "likes": [
+        {
+          "user_uuid": "ee30b12c-d953-47ec-946c-daa263dc64d0"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "timestamp": "Mon Jul 20 2023 18:00:39 GMT+0200 (Ora legale dell'Europa centrale)",
+      "thread_from": "59cefdfd-97ee-4d6f-bf93-d3e77ac84349",
+      "thread_to": "ee30b12c-d953-47ec-946c-daa263dc64d0",
+      "reply_to": 0,
+      "text": "Commenting Thread with ID 0!",
       "likes": []
+    },
+    {
+      "timestamp": "2023-07-27T14:12:41.283Z",
+      "thread_from": "ee30b12c-d953-47ec-946c-daa263dc64d0",
+      "thread_to": "ee30b12c-d953-47ec-946c-daa263dc64d0",
+      "reply_to": 4,
+      "text": "Ahahahah!",
+      "likes": [],
+      "id": 6
+    },
+    {
+      "timestamp": "2023-07-27T14:13:00.687Z",
+      "thread_from": "ee30b12c-d953-47ec-946c-daa263dc64d0",
+      "thread_to": "ee30b12c-d953-47ec-946c-daa263dc64d0",
+      "reply_to": null,
+      "text": "Testing a new post!",
+      "likes": [
+        {
+          "user_uuid": "ee30b12c-d953-47ec-946c-daa263dc64d0"
+        }
+      ],
+      "id": 7
+    },
+    {
+      "timestamp": "2023-07-27T14:13:12.581Z",
+      "thread_from": "ee30b12c-d953-47ec-946c-daa263dc64d0",
+      "thread_to": "ee30b12c-d953-47ec-946c-daa263dc64d0",
+      "reply_to": 7,
+      "text": "Commenting it!",
+      "likes": [
+        {
+          "user_uuid": "ee30b12c-d953-47ec-946c-daa263dc64d0"
+        }
+      ],
+      "id": 8
     }
   ]
 }
