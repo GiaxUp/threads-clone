@@ -1,11 +1,23 @@
 # New Social by Meta (Threads) Clone
 
-Since people on LinkedIn are complaining that we students of Epicode have the same projects over and over (I'm joking... Maybe?) I decided to replicate this new social network made by Meta.
+Decided to join the hype for the new Meta social network by creating a look-a-like clone of it!
 
 ## Main functions
+* Create a new Thread with your profile
+* Add likes to other posts
+* Share comment to other Threadss with your profile
 
 ## Screenshots
+### Home Page
+![HomePage](https://i.ibb.co/zZQ7XgM/sample.png)
 
 ## Technologies
+* Created the database with the [JSON Server](https://www.npmjs.com/package/json-server) package
+* Handled dates of the posts with [Moments](https://www.npmjs.com/package/moment)
 
 ## How to clone
+1. First of all make sure to have Node.js on your system
+2. Clone this repository with `$ git clone https://github.com/GiaxUp/Capstone/`
+3. Enter in the project folder with `$ cd rocket_cinema`
+4. Install all the dependencies with `$ npm i`
+5. Start the application with `$ npm start` 
