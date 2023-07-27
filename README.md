@@ -1,4 +1,4 @@
-# New Social by Meta (Threads) Clone
+# Threads (the new social by Meta) Clone
 
 Decided to join the hype for the new Meta social network by creating a look-a-like clone of it!
 
