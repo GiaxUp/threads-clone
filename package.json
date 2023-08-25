@@ -1,4 +1,5 @@
 {
+  "homepage": "https://giaxup.github.io/threads-clone/",
   "name": "threads-clone",
   "version": "0.1.0",
   "private": true,
@@ -18,6 +19,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "src": "cd src && npm start",
     "server": "npx json-server --watch db.json",
     "start_full_app": "concurrently \"npm run server\" \"npm run src\""
