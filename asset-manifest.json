@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/threads-clone/static/css/main.bf10136f.css",
+    "main.js": "/threads-clone/static/js/main.1ffc5f60.js",
+    "index.html": "/threads-clone/index.html",
+    "main.bf10136f.css.map": "/threads-clone/static/css/main.bf10136f.css.map",
+    "main.1ffc5f60.js.map": "/threads-clone/static/js/main.1ffc5f60.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf10136f.css",
+    "static/js/main.1ffc5f60.js"
+  ]
+}
