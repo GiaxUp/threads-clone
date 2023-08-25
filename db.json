@@ -76,7 +76,11 @@
       "thread_to": null,
       "reply_to": null,
       "text": "And another one!",
-      "likes": []
+      "likes": [
+        {
+          "user_uuid": "ee30b12c-d953-47ec-946c-daa263dc64d0"
+        }
+      ]
     },
     {
       "id": 2,
@@ -156,6 +160,24 @@
         }
       ],
       "id": 8
+    },
+    {
+      "timestamp": "2023-08-25T12:08:00.437Z",
+      "thread_from": "ee30b12c-d953-47ec-946c-daa263dc64d0",
+      "thread_to": "ee30b12c-d953-47ec-946c-daa263dc64d0",
+      "reply_to": 1,
+      "text": "Commenting this on Friday 25th!",
+      "likes": [],
+      "id": 9
+    },
+    {
+      "timestamp": "2023-08-25T12:08:48.385Z",
+      "thread_from": "ee30b12c-d953-47ec-946c-daa263dc64d0",
+      "thread_to": "ee30b12c-d953-47ec-946c-daa263dc64d0",
+      "reply_to": null,
+      "text": "Posting this on friday 25th!",
+      "likes": [],
+      "id": 10
     }
   ]
 }
