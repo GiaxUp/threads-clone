@@ -176,8 +176,43 @@
       "thread_to": "ee30b12c-d953-47ec-946c-daa263dc64d0",
       "reply_to": null,
       "text": "Posting this on friday 25th!",
-      "likes": [],
+      "likes": [
+        {
+          "user_uuid": "ee30b12c-d953-47ec-946c-daa263dc64d0"
+        }
+      ],
       "id": 10
+    },
+    {
+      "timestamp": "2023-08-25T13:15:47.441Z",
+      "thread_from": "ee30b12c-d953-47ec-946c-daa263dc64d0",
+      "thread_to": "ee30b12c-d953-47ec-946c-daa263dc64d0",
+      "reply_to": 10,
+      "text": "Commented!",
+      "likes": [],
+      "id": 11
+    },
+    {
+      "timestamp": "2023-08-25T13:19:18.412Z",
+      "thread_from": "ee30b12c-d953-47ec-946c-daa263dc64d0",
+      "thread_to": "ee30b12c-d953-47ec-946c-daa263dc64d0",
+      "reply_to": null,
+      "text": "Writing a new post for the video demo!",
+      "likes": [
+        {
+          "user_uuid": "ee30b12c-d953-47ec-946c-daa263dc64d0"
+        }
+      ],
+      "id": 12
+    },
+    {
+      "timestamp": "2023-08-25T13:19:39.119Z",
+      "thread_from": "ee30b12c-d953-47ec-946c-daa263dc64d0",
+      "thread_to": "ee30b12c-d953-47ec-946c-daa263dc64d0",
+      "reply_to": 12,
+      "text": "Commenting it too!",
+      "likes": [],
+      "id": 13
     }
   ]
 }

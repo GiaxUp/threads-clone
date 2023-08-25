@@ -95,7 +95,7 @@ function Thread({ user, setOpenPopUp, filteredThread, getThreads, setInteracting
         </svg>
       </div>
       <p className="sub-text" onClick={handleClick}>
-        <span>{replyLength} replies</span> • <span>{filteredThread.likes.length} likes</span>
+        <span>Replies</span> • <span>{filteredThread.likes.length} likes</span>
       </p>
     </article>
   );
