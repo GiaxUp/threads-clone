@@ -7,7 +7,7 @@ Decided to join the hype for the new Meta social network by creating a look-a-li
 * Add likes to other posts
 * Share comment to other Threadss with your profile
 
-## Screenshots
+## Screenshot
 ### Home Page
 ![image](https://github.com/GiaxUp/threads-clone/assets/40038797/c9049c6d-e39a-4c26-abc7-d94850fa7ef0)
 
